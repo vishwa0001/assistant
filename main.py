@@ -62,4 +62,4 @@ with gr.Blocks() as app:
 
 # Launch the Gradio app
 if __name__ == "__main__":
-    app.queue().launch()
+    app.queue().launch(share=True)
