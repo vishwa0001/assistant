@@ -3,12 +3,15 @@ import gradio as gr
 from langchain_community.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from langchain.schema import HumanMessage
-
+import streamlit as st
 import os
 import gradio as gr
 from langchain_community.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from langchain.schema import HumanMessage
+
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
+
 
 # Initialize the language model with streaming
 llm = ChatOpenAI(
