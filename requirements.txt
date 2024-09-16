@@ -1,0 +1,11 @@
+streamlit
+gradio
+langchain
+crewai
+langchain
+langchain-community
+langchain-groq
+gradio
+textstat
+beautifulsoup4
+requests
