@@ -2,3 +2,4 @@ streamlit
 gradio
 langchain
 langchain-community
+openai
